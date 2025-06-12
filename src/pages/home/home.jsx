@@ -1,9 +1,13 @@
 import React from 'react'
+import Body from '../../containers/Body/Body'
+import Hero from '../../containers/Hero/Hero'
 
-function home() {
+function Home() {
   return (
-    <div>home</div>
+    <Body>
+      <Hero />
+    </Body>
   )
 }
 
-export default home
+export default Home

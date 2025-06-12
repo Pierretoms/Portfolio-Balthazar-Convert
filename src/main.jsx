@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router";
-import home from "./pages/home/home.jsx";
-import signIn from "./pages/signIn/signIn.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home.jsx";
+import SignIn from "./pages/SignIn/SignIn.jsx";
+
+const root = document.getElementById('root');
 
 ReactDOM.createRoot(root).render(
-  <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<home.jsx />} />
-        <Route path="/signin" element={<signIn />} />
-    </Routes>
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signin" element={<SignIn />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );
