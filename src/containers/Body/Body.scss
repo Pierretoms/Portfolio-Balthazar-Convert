@@ -1,5 +1,9 @@
 @use '../../Styles/variables' as *;
 
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     padding-top: 0;
 }

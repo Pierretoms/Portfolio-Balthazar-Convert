@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "test peinture 2023",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2023"
+    },
+    {
+        "id": 2,
+        "title": "test peinture 2020",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2020"
+    },
+    {
+        "id": 3,
+        "title": "test peinture 2021",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2021"
+    },
+    {
+        "id": 4,
+        "title": "test peinture 2023",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2023"
+    },
+    {
+        "id": 5,
+        "title": "test peinture 2020",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2020"
+    },
+    {
+        "id": 6,
+        "title": "test peinture 2021",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2021"
+    },
+    {
+        "id": 7,
+        "title": "test peinture 2023",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2023"
+    },
+    {
+        "id": 8,
+        "title": "test peinture 2020",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2020"
+    },
+    {
+        "id": 9,
+        "title": "test peinture 2021",
+        "imageUrl": "https://placehold.co/100x50",
+        "userId": 1,
+        "date": "2021"
+    }   
+]

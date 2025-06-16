@@ -1,0 +1,23 @@
+@use '../../Styles/variables' as *;
+
+.artworks {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 1rem;
+
+    .artwork-card {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      border-radius: 5px;
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        margin-top: 0.5rem;
+      }
+    }
+  }
