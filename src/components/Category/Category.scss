@@ -12,6 +12,7 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        font-size: 16px;
         
         &.active {
             background-color: $secondary-color;
@@ -20,6 +21,15 @@
         
         &:hover {
             background-color: #ccc;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .year-filters {
+        button {
+        font-size: 12px;
         }
     }
 }

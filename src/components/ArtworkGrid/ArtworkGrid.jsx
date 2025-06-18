@@ -7,7 +7,7 @@ const ArtworkGrid = ({ artworks }) => {
       {artworks.map(art => (
         <div key={art.id} className="artwork-card">
           <img src={art.imageUrl} alt={art.title} />
-          <p>{art.title}</p>
+          <h3>{art.title}</h3>
         </div>
       ))}
     </div>

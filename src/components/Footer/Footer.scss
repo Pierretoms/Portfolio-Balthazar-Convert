@@ -32,3 +32,13 @@ footer {
         transform: translateY(-3px);
     }
 }
+
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 0;
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}

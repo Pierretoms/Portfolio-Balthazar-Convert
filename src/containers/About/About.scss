@@ -2,8 +2,17 @@
 
 .about {
   background: $primary-color;
-  padding: 20px 0;
+  padding: 100px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
 }

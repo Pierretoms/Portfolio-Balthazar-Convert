@@ -1,18 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home.jsx";
-import SignIn from "./pages/SignIn/SignIn.jsx";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import Home from './pages/home/home'
 
-const root = document.getElementById('root');
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Home />
+  </StrictMode>,
+)
 
-ReactDOM.createRoot(root).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/signin" element={<SignIn />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
-);

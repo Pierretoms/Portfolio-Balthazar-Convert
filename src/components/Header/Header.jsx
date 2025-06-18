@@ -9,8 +9,8 @@ function Header() {
             <ul>
                 <li><a href='#about'>A propos</a></li>
                 <li><a href='#gallery'>Galerie</a></li>
-                <li><a href='#'>Contact</a></li>
-                <li><a href="#" target="_blank" className="social-link" aria-label="mon compte instagram">
+                {/*<li><a href='#'>Contact</a></li>*/}
+                <li><a href="https://www.instagram.com/balthazar_convert/" target="_blank" className="social-link" aria-label="mon compte instagram">
                 <i className="fa-brands fa-instagram"></i></a></li>
             </ul>
         </nav>
