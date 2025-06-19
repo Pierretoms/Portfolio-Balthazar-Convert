@@ -4,9 +4,9 @@ import "./CitationAutor.scss"
 function CitationAutor() {
   return (
     <figure>
-        <blockquote>Lorem ipsum</blockquote>
+        <blockquote>« L’artiste est un chaos organisé. »</blockquote>
         <figcaption>
-            - Autor
+            - Jean Cocteau
         </figcaption>
     </figure>
   )

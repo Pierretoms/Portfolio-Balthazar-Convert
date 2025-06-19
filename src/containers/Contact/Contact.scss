@@ -1,0 +1,34 @@
+@use '../../Styles/variables' as *;
+
+.contact {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(244, 244, 244, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;                                  
+    font-size: 30px;
+    margin: 8rem 0 8rem 0;
+    text-align: center;
+    
+    a {
+        position: relative;
+        text-decoration: none;
+        color: $secondary-color;
+        transform: translateY(0);
+        display: inline-block;
+        transition: transform 0.3s ease, color 0.3s ease;
+        
+        &:hover {
+            transform: translateY(-10px);
+            color: $primary-color;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        font-size: 18px;
+        margin: 4rem 0 4rem 0;
+    }
+}

@@ -3,11 +3,10 @@
 .artworks {
   display: grid;
   grid-template-columns: repeat(4, minmax(0,1fr));
-  gap: 1rem;
+  gap: 3rem;
   justify-items: center;
   
   .artwork-card {
-    position: relative;
     width: 100%;
     max-width: 340px;
     height: auto;
@@ -16,6 +15,10 @@
     color: white;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+    
     img {
       width: 100%;
       height: auto;
@@ -24,27 +27,56 @@
       border-radius: 10px;
     }
     h3 {
-      position: absolute;
-      font-size: 16px;
-      inset: 0;
-      margin: 0;
-      display: flex;
-      align-items: flex-end;
-      padding: 1rem;
-      background: linear-gradient(to top, #04040469,transparent);
-      border-radius: 10px;
+      font-size: 20px;
+      margin-top : 10px;
+      color: black;
+      text-align: center;
     }
   }
 }
 
-@media (max-width: 1200px) {
- .artworks {
-    grid-template-columns: repeat(3, minmax(0,1fr));
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (max-width: 768px) {
+// Animation pour la sortie des éléments
+.artwork-card.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.artwork-card.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@media (max-width: 1200px) {
+  .artworks {
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    .artwork-card {
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
   .artworks {
     grid-template-columns: repeat(2, minmax(0,1fr));
+    .artwork-card {
+      h3 {
+        font-size: 12px;
+      }
+    }
   }
+  
 }

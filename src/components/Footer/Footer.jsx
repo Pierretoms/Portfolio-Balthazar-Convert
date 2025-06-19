@@ -6,9 +6,9 @@ function Footer() {
     <footer>
       <div className="footer-content">
         <img 
-          src="https://placehold.co/100x50" 
-          alt="Logo de Balthazar Convert" 
-          className="logo" 
+          src="signature-autor-b.webp" 
+          alt="Signature de Balthazar Convert" 
+          className="signature" 
         />
         <p><strong>&copy; 2025 Balthazar Convert. Tous droits réservés.</strong></p>
         <div className="social-links">

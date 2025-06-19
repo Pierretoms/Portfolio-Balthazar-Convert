@@ -4,7 +4,7 @@ import './AboutPdp.scss'
 function AboutPdp() {
   return (
     <div className='about-pdp'>
-        <img src='balthazar-pdp.webp' alt='Photo de profil Balthazar Convert' />
+        <img src='Balthazar-pdp.webp' alt='Photo de profil Balthazar Convert' />
     </div>
   )
 }

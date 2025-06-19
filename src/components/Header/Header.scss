@@ -1,5 +1,10 @@
 @use '../../Styles/variables' as *;
 
+
+h1 {
+    font-size: 2.5rem;
+}
+
 nav {
     background-color: $background-color;
     padding: 1rem;
@@ -12,8 +17,9 @@ ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     transition: transform 0.3s ease, color 0.3s ease;
+    font-size: 1.5rem;
     a {
         text-decoration: none;
         font-weight: bold;
@@ -23,17 +29,20 @@ ul {
         color: $secondary-color;
         transform: translateY(-3px);
     }
+    .social-link {
+        color: black;
+    }
 }
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     ul{
         gap: 0.5rem;
         a{
-            font-size: 12px;
+            font-size: 10px;
         }
     }
 }
