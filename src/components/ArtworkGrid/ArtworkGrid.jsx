@@ -10,7 +10,9 @@ const ArtworkGrid = ({ artworks }) => {
           className="artwork-card"
           style={{ animationDelay: `${index * 0.1}s` }}
         >
-          <img src={art.imageUrl} alt={art.title} />
+          <a href={art.imageUrl} target="_blank" rel="noopener noreferrer">
+            <img src={art.imageUrl} alt={art.title} />
+          </a>
           <h3>{art.title}</h3>
         </div>
       ))}
