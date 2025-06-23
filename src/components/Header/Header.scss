@@ -11,7 +11,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+
+.burger {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: $text-color;
+      cursor: pointer;
+    }
 
 ul {
     list-style: none;
@@ -34,15 +44,51 @@ ul {
     }
 }
 
+@media (max-width: 1024px) {
+  nav {
+    padding: 0.5rem;
+
+    ul {
+      gap: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
-    h1 {
-        font-size: 14px;
+  nav {
+    flex-wrap: wrap;
+
+    .burger {
+      display: block;
     }
 
-    ul{
-        gap: 0.5rem;
-        a{
-            font-size: 10px;
-        }
+    ul {
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: $background-color;
+      gap: 1rem;
+      padding: 1rem 0;
+      display: none;
+
+      &.open {
+        display: flex;
+      }
+
+      a {
+        font-size: 1rem;
+      }
     }
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
 }

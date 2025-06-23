@@ -17,18 +17,34 @@ figcaption {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 1024px) {
+
+    figure {
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+
+    blockquote {
+        font-size: 2.5rem;
+    }
+
+    figcaption {
+        font-size: 1.8rem;
+    }
+}
+
 @media (max-width: 768px) {
 
     figure {
-        padding: 1rem;
+        padding: 0.8rem;
         border-radius: 10px;
     }
 
     blockquote {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     figcaption {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
