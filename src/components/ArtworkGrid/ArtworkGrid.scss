@@ -2,38 +2,40 @@
 
 .artworks {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0,1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 3rem;
   justify-items: center;
-  
+
   .artwork-card {
     width: 100%;
     max-width: 340px;
-    height: auto;
     aspect-ratio: 1;
     border-radius: 10px;
-    color: white;
     display: flex;
     flex-direction: column;
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 0.5s ease forwards;
-    
+
+    &.animated {
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
     img {
       width: 100%;
-      height: auto;
       aspect-ratio: 1;
       object-fit: cover;
       border-radius: 10px;
     }
+
     h3 {
       font-size: 20px;
-      margin-top : 10px;
+      margin-top: 10px;
       color: black;
       text-align: center;
     }
   }
 }
+
 
 @keyframes fadeInUp {
   from {
@@ -58,6 +60,27 @@
   transform: translateY(20px);
 }
 
+.see-more-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.see-more-button {
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: $secondary-color;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $primary-color
+  }
+}
+
+
 @media (max-width: 1200px) {
   .artworks {
     grid-template-columns: repeat(3, minmax(0,1fr));
@@ -78,5 +101,9 @@
       }
     }
   }
+  .see-more-button {
+    padding: 8px 16px;
+  }
   
 }
+
