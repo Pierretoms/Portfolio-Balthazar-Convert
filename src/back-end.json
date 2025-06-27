@@ -169,58 +169,146 @@
     },
     {
         "id": 29,
-        "title": "test peinture 2020",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2020"
+        "title": "Mimesis vol 3 page 1",
+        "imageUrl": "mimesis-vol-3/PAGE 1.avif",
+        "date": "2024"
     },
     {
         "id": 30,
-        "title": "test peinture 2021",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2021"
+        "title": "Mimesis vol 3 page 2",
+        "imageUrl": "mimesis-vol-3/PAGE 2.avif",
+        "date": "2024"
     },
     {
         "id": 31,
-        "title": "test peinture 2023",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2023"
+        "title": "Mimesis vol 3 page 3",
+        "imageUrl": "mimesis-vol-3/PAGE 3.avif",
+        "date": "2024"
     },
     {
         "id": 32,
-        "title": "test peinture 2020",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2020"
+        "title": "Mimesis vol 3 page 4",
+        "imageUrl": "mimesis-vol-3/PAGE 4.avif",
+        "date": "2024"
     },
     {
         "id": 33,
-        "title": "test peinture 2021",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2021"
+        "title": "Mimesis vol 3 page 5",
+        "imageUrl": "mimesis-vol-3/PAGE 5.avif",
+        "date": "2024"
     },
     {
         "id": 34,
-        "title": "test peinture 2023",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2023"
+        "title": "Mimesis vol 3 page 6",
+        "imageUrl": "mimesis-vol-3/PAGE 6.avif",
+        "date": "2024"
     },
     {
         "id": 35,
-        "title": "test peinture 2020",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2020"
+        "title": "Mimesis vol 3 page 7",
+        "imageUrl": "mimesis-vol-3/PAGE 7.avif",
+        "date": "2024"
     },
     {
         "id": 36,
-        "title": "test peinture 2021",
-        "imageUrl": "https://placehold.co/100x50",
-        "userId": 1,
-        "date": "2021"
+        "title": "Mimesis vol 3 page 8",
+        "imageUrl": "mimesis-vol-3/PAGE 8.avif",
+        "date": "2024"
+    },
+    {
+        "id": 37,
+        "title": "Mimesis vol 3 page 9",
+        "imageUrl": "mimesis-vol-3/PAGE 9.avif",
+        "date": "2024"
+    },
+    {
+        "id": 38,
+        "title": "Mimesis vol 3 page 10",
+        "imageUrl": "mimesis-vol-3/PAGE 10.avif",
+        "date": "2024"
+    },
+    {
+        "id": 39,
+        "title": "Mimesis vol 3 page 11",
+        "imageUrl": "mimesis-vol-3/PAGE 11.avif",
+        "date": "2024"
+    },
+    {
+        "id": 40,
+        "title": "Mimesis vol 3 page 12",
+        "imageUrl": "mimesis-vol-3/PAGE 12.avif",
+        "date": "2024"
+    },
+    {
+        "id": 41,
+        "title": "Mimesis vol 4 page 1",
+        "imageUrl": "mimesis-vol-4/PAGE 1.avif",
+        "date": "2024"
+    },
+    {
+        "id": 42,
+        "title": "Mimesis vol 4 page 2",
+        "imageUrl": "mimesis-vol-4/PAGE 2.avif",
+        "date": "2024"
+    },
+    {
+        "id": 43,
+        "title": "Mimesis vol 4 page 3",
+        "imageUrl": "mimesis-vol-4/PAGE 3.avif",
+        "date": "2024"
+    },
+    {
+        "id": 44,
+        "title": "Mimesis vol 4 page 4",
+        "imageUrl": "mimesis-vol-4/PAGE 4.avif",
+        "date": "2024"
+    },
+    {
+        "id": 45,
+        "title": "Mimesis vol 4 page 5",
+        "imageUrl": "mimesis-vol-4/PAGE 5.avif",
+        "date": "2024"
+    },
+    {
+        "id": 46,
+        "title": "Mimesis vol 4 page 6",
+        "imageUrl": "mimesis-vol-4/PAGE 6.avif",
+        "date": "2024"
+    },
+    {
+        "id": 47,
+        "title": "Mimesis vol 4 page 7",
+        "imageUrl": "mimesis-vol-4/PAGE 7.avif",
+        "date": "2024"
+    },
+    {
+        "id": 48,
+        "title": "Mimesis vol 4 page 8",
+        "imageUrl": "mimesis-vol-4/PAGE 8.avif",
+        "date": "2024"
+    },
+    {
+        "id": 49,
+        "title": "Mimesis vol 4 page 9",
+        "imageUrl": "mimesis-vol-4/PAGE 9.avif",
+        "date": "2024"
+    },
+    {
+        "id": 50,
+        "title": "Mimesis vol 4 page 10",
+        "imageUrl": "mimesis-vol-4/PAGE 10.avif",
+        "date": "2024"
+    },
+    {
+        "id": 51,
+        "title": "Mimesis vol 4 page 11",
+        "imageUrl": "mimesis-vol-4/PAGE 11.avif",
+        "date": "2024"
+    },
+    {
+        "id": 52,
+        "title": "Mimesis vol 4 page 12",
+        "imageUrl": "mimesis-vol-4/PAGE 12.avif",
+        "date": "2024"
     }   
 ]
